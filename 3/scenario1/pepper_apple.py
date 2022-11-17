@@ -12,7 +12,7 @@ class PepperAppleFirstHotDeal(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
 
-    def pepper_search(self):
+    def test_pepper_search(self):
         driver = self.driver
         driver.implicitly_wait(10)
 
