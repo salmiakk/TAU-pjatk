@@ -1,5 +1,7 @@
 ## Scenariusze testowe Selenium
 
+UWAGA - automatyczne testy nie działają dla tego projektu, z uwagi na problem z konfiguracją Selenium w Github Actions.
+
 Wymagania/środowisko testowe
 
 1. Python 3.9.4
