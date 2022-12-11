@@ -1,0 +1,1 @@
+Let's see if integrated tests work for Zjazd2.
