@@ -1,0 +1,84 @@
+1668722163902	geckodriver	INFO	Listening on 127.0.0.1:52152
+1668722166959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52153" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofileFekBKZ"
+1668722167227	Marionette	INFO	Marionette enabled
+1668722167231	Marionette	INFO	Listening on port 63186
+WebDriver BiDi listening on ws://127.0.0.1:52153
+Read port: 63186
+1668722167405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofileFekBKZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52153/devtools/browser/e4b97fb7-7b24-4b95-9487-720e486b82c6
+1668722199327	geckodriver	INFO	Listening on 127.0.0.1:57840
+1668722202380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57841" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofilegGrPae"
+1668722202650	Marionette	INFO	Marionette enabled
+1668722202655	Marionette	INFO	Listening on port 56782
+WebDriver BiDi listening on ws://127.0.0.1:57841
+Read port: 56782
+1668722202826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofilegGrPae\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57841/devtools/browser/9d385cba-ab45-408c-bedf-75cf30480eb2
+1668722204979	Marionette	INFO	Stopped listening on port 56782
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668722220695	geckodriver	INFO	Listening on 127.0.0.1:60771
+1668722223755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60772" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofileDhzIZo"
+1668722224034	Marionette	INFO	Marionette enabled
+1668722224039	Marionette	INFO	Listening on port 54776
+Read port: 54776
+WebDriver BiDi listening on ws://127.0.0.1:60772
+1668722224247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofileDhzIZo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60772/devtools/browser/5adf1b09-44c1-44a8-b3ea-1d108a385e03
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 5515 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 939 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668722228518	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.trojmiasto.pl."
+1668722230621	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1668722231695	Marionette	INFO	Stopped listening on port 54776
+[Parent 8452, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668722250765	geckodriver	INFO	Listening on 127.0.0.1:58107
+1668722253811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58108" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofile86EGLY"
+1668722254089	Marionette	INFO	Marionette enabled
+1668722254094	Marionette	INFO	Listening on port 58122
+Read port: 58122
+WebDriver BiDi listening on ws://127.0.0.1:58108
+1668722254193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofile86EGLY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58108/devtools/browser/7ba4977d-829f-40c7-844d-ea6d547789e0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 6347 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 2675 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.trojmiasto.pl."
+1668722260908	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 1647 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1668722262058	Marionette	INFO	Stopped listening on port 58122
+1668722274207	geckodriver	INFO	Listening on 127.0.0.1:61639
+1668722277247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61640" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofile0R6PvQ"
+1668722277504	Marionette	INFO	Marionette enabled
+1668722277509	Marionette	INFO	Listening on port 61657
+WebDriver BiDi listening on ws://127.0.0.1:61640
+Read port: 61657
+1668722277700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofile0R6PvQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61640/devtools/browser/49be7aa2-0c32-43ba-b920-ef53b15b1891
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 5645 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 469 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.trojmiasto.pl."
+1668722283445	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://mapa.trojmiasto.pl/_js/map/Router.js, line 280: unreachable code after return statement
+JavaScript warning: https://mapa.trojmiasto.pl/#/location/-75.39,242.74/map/-75.39,242.74,2,b, line 666: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mapa.trojmiasto.pl."
+JavaScript warning: https://mapa.trojmiasto.pl/#/location/-75.39,242.74/map/-75.39,242.74,2,b, line 666: unreachable code after return statement
+1668722292243	Marionette	INFO	Stopped listening on port 61657
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668722322157	geckodriver	INFO	Listening on 127.0.0.1:51643
+1668722325202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51644" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mpioc\\AppData\\Local\\Temp\\rust_mozprofilex5RX7p"
+1668722325454	Marionette	INFO	Marionette enabled
+1668722325458	Marionette	INFO	Listening on port 61832
+WebDriver BiDi listening on ws://127.0.0.1:51644
+Read port: 61832
+1668722325648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668723444242	Marionette	INFO	Stopped listening on port 61832
+1668723444274	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
