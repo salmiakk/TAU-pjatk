@@ -1,6 +1,6 @@
 # This workflow will run tests appropriate for given project, after each commit pushed.
 
-name: Java CI with Maven
+name: Automated test per project
 
 on:
   push:
