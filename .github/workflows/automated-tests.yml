@@ -1,0 +1,68 @@
+# This workflow will run tests appropriate for given project, after each commit pushed.
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          zjazd1:
+            - '1/**'
+          zjazd2:
+            - '2/**'
+          zjazd3_scenario1:
+            - '3/scenario1/**'
+          zjazd3_scenario2:
+            - '3/scenario2/**'
+          zjazd4:
+            - '4/library_management_system/**'
+
+    - name: Set up JDK 17 for Zjazd1
+      if: steps.filter.outputs.zjazd1 == 'true'
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Set up JDK 11 for Zjazd2 or Zjazd4
+      if: steps.filter.outputs.zjazd2 == 'true' || steps.filter.outputs.zjazd4 == 'true'
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Setup Python 3.10 for Zjazd3 scenarios
+      if: steps.filter.outputs.zjazd3_scenario1 == 'true' || steps.filter.outputs.zjazd3_scenario2 == 'true'
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' 
+
+    - name: Test Zjazd1 project with Maven
+      if: steps.filter.outputs.zjazd1 == 'true'
+      run: cd 1 && mvn test --file pom.xml
+
+    - name: Test Zjazd2 project with Maven
+      if: steps.filter.outputs.zjazd2 == 'true'
+      run: cd 2 && mvn test --file pom.xml
+
+    - name: Test Zjazd3 Scenario1 project with PyTest
+      if: steps.filter.outputs.zjazd3_scenario1 == 'true'
+      run: cd 3/scenario1 && python3 cieszynskiego.py
+
+    - name: Test Zjazd3 Scenario2 project with PyTest
+      if: steps.filter.outputs.zjazd3_scenario2 == 'true'
+      run: cd 3/scenario2 && python3 dobreziele.py
+
+    - name: Test Zjazd4 project with Maven
+      if: steps.filter.outputs.zjazd4 == 'true'
+      run: cd 4/library_management_system && mvn test --file pom.xml
