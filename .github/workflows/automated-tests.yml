@@ -6,7 +6,7 @@ on:
   push:
     branches: [ "main" ]
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -45,7 +45,11 @@ jobs:
       if: steps.filter.outputs.zjazd3_scenario1 == 'true' || steps.filter.outputs.zjazd3_scenario2 == 'true'
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10' 
+        python-version: '3.10'
+
+    - name: Setup Python 3.10 for Zjazd3 scenarios - install pip libs
+      if: steps.filter.outputs.zjazd3_scenario1 == 'true' || steps.filter.outputs.zjazd3_scenario2 == 'true'
+      run: pip3 install selenium unittest2
 
     - name: Test Zjazd1 project with Maven
       if: steps.filter.outputs.zjazd1 == 'true'
