@@ -60,7 +60,7 @@ class Game():
         move_to = to_array(move_total[1])
         self.board[move_from[0]][move_from[1]] = 0
         self.board[move_to[0]][move_to[1]] = self.player
-        return True    
+  
     def is_win(self):
         # If there is no Finish field on the board, it means that game is done.
         for row in self.board:
